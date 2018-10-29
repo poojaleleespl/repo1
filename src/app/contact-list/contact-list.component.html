@@ -1,0 +1,55 @@
+
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <div style="text-align:center" class="body">
+    <h1>Angular Application</h1>
+   
+
+  <style>
+    /* Style the body */
+    
+    .body {
+      font-family: Arial;
+      margin: 10;
+     background:#FFDAB9;
+
+      color: #039be5;
+      font-size: 15px;
+    }
+    
+    /* Header/Logo Title */
+    /*.header {
+      padding: 10px;
+      text-align: center;
+      background:#FFDAB9;
+      color: #039be5;
+      font-size: 30px;
+    }*/
+    
+    /* Page Content */
+    .content {padding:0px;}
+    
+    </style>
+    
+   
+ 
+  <nav>
+    <a routerLink="/Home" routerLinkActive="active">Home</a>
+    <a routerLink="/Aboutus" routerLinkActive="active">Aboutus</a>
+    <a routerLink="/Contact" routerLinkActive="active">Contact</a>
+  </nav>
+
+
+   
+   <div style="text-align:center">
+   <h2>Percent Pipe</h2>
+   <div>
+     <h4> {{num1 | percent}} </h4>
+     <h4> {{num1 | percent:'2.2-5'}} </h4>
+     <h4> {{num2 | percent:'1.2-5'}} </h4>
+     <h4> {{num1 * num2 | percent:'1.2-3'}} </h4>
+   </div> 
+  </div>
+</div>
+  <!--<div style="margin-top: 250px; overflow-y: hidden ;">footer</div> -->
+   <div style="margin-top: 100px; overflow-y: hidden ;"><p customdirective> #LoveTwitter </p><p>I #LoveTwitter because it is a place for all opinions to be heard, and I want to help that idea spread across the world<p></div>
